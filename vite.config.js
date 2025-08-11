@@ -10,6 +10,8 @@ export default defineConfig({
             routes: path.resolve(__dirname, './src/routes'),
             views: path.resolve(__dirname, './src/views'),
             styles: path.resolve(__dirname, './src/styles'),
+            components: path.resolve(__dirname, './src/components'),
+            assets: path.resolve(__dirname, './src/assets'),
         },
     },
 });

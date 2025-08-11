@@ -1,12 +1,13 @@
 import { css } from 'styled-components';
 
 export default css`
-    --dark-grey: #1e1e1e;
+    --dark-grey: #4d4f4a;
     --light-grey: #979797;
     --lighter-grey: #c9c9c9;
 
     --white: #ffffff;
-    --main-cream: #f5f4f0;
-    --main-green: #74826b;
+    --main-cream: #f6f3ee;
+    --main-yellow: #d39526;
+    --main-green: #5f7044;
     --main-brown: #ab998b;
 `;

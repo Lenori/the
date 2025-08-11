@@ -35,9 +35,15 @@ export default createGlobalStyle`
     }
 
     button {
+        border: none;
         cursor: pointer;        
-        transition: filter 0.3s;        
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+        transition: filter 0.3s;       
+        background-color: var(--main-green); 
+        color: var(--main-cream);
+        padding: var(--spacing-s) var(--spacing-m);
+        border-radius: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
 
         &:hover {
             filter: brightness(90%);
