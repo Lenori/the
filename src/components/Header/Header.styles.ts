@@ -9,7 +9,12 @@ export const MainContainer = styled.section`
 
 export const LogoContainer = styled.section`
     img {
-        width: 320px;
+        width: 100%;
+    }
+    @media screen and (min-width: 769px) {
+        img {
+            width: 320px;
+        }
     }
 `;
 
