@@ -4,6 +4,7 @@ export const MainContainer = styled.section`
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 `;
 
 export const LogoContainer = styled.section`
@@ -13,7 +14,6 @@ export const LogoContainer = styled.section`
 `;
 
 export const HamburgerMenu = styled.section`
-    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;

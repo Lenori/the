@@ -32,7 +32,7 @@ export default function Header() {
                     <S.DrawerMenuItem>Sobre mim</S.DrawerMenuItem>
                     <S.DrawerMenuItem>Meus serviços</S.DrawerMenuItem>
                     <S.DrawerMenuItem>Projetos</S.DrawerMenuItem>
-                    <S.DrawerMenuItem>Solicite um orçamento</S.DrawerMenuItem>
+                    <S.DrawerMenuItem>Contato</S.DrawerMenuItem>
                 </S.DrawerMenuContainer>
             )}
 
@@ -40,7 +40,7 @@ export default function Header() {
                 <S.MenuItem>Sobre mim</S.MenuItem>
                 <S.MenuItem>Meus serviços</S.MenuItem>
                 <S.MenuItem>Projetos</S.MenuItem>
-                <S.MenuItem>Solicite um orçamento</S.MenuItem>
+                <S.MenuItem>Contato</S.MenuItem>
             </S.MenuContainer>
         </S.MainContainer>
     );
