@@ -1,6 +1,8 @@
 import { css } from 'styled-components';
 
 export default css`
+    --max-width: 1440px;
+
     --spacing-xxs: 0.4rem;
     --spacing-xs: 0.7rem;
     --spacing-s: 1rem;
