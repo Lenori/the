@@ -14,7 +14,7 @@ export default createGlobalStyle`
     }
 
     html {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     body {
@@ -24,6 +24,10 @@ export default createGlobalStyle`
         background-repeat: no-repeat;
         margin: 0;
         color: var(--dark-grey);
+    }
+
+    p {        
+        line-height: 22px;
     }
 
     a {        
@@ -40,10 +44,11 @@ export default createGlobalStyle`
         transition: filter 0.3s;       
         background-color: var(--main-green); 
         color: var(--main-cream);
-        padding: var(--spacing-s) var(--spacing-m);
+        padding: var(--spacing-xs) var(--spacing-s);
         border-radius: 20px;
         text-transform: uppercase;
         font-weight: bold;
+        font-size: 12px;
 
         &:hover {
             filter: brightness(90%);

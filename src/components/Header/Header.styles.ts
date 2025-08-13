@@ -11,6 +11,7 @@ export const LogoContainer = styled.section`
     img {
         width: 100%;
     }
+
     @media screen and (min-width: 769px) {
         img {
             width: 320px;
@@ -25,7 +26,7 @@ export const HamburgerMenu = styled.section`
 
     svg {
         font-size: 30px;
-        margin-left: var(--spacing-m);
+        margin-left: var(--spacing-s);
         color: var(--main-green);
         cursor: pointer;
         padding: var(--spacing-s);
@@ -46,7 +47,7 @@ export const DrawerMenuContainer = styled.section`
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding: var(--spacing-m);
+    padding: var(--spacing-s);
 `;
 
 export const DrawerMenuClose = styled.section`
@@ -68,12 +69,13 @@ export const DrawerMenuItem = styled.p`
     margin: 0 0 var(--spacing-m) 0;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 12px;
 
     &:last-child {
         color: var(--main-green);
         background-color: var(--main-cream);
-        padding: var(--spacing-s);
-        border-radius: 20px;
+        padding: var(--spacing-xs) var(--spacing-s);
+        border-radius: 30px;
         transition: filter 0.3s;
 
         &:hover {
@@ -99,6 +101,7 @@ export const MenuItem = styled.p`
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+    font-size: 12px;
 
     &:hover {
         border-bottom: 1px solid var(--main-yellow);
@@ -107,8 +110,8 @@ export const MenuItem = styled.p`
     &:last-child {
         color: var(--main-cream);
         background-color: var(--main-green);
-        padding: var(--spacing-s);
-        border-radius: 20px;
+        padding: var(--spacing-xs) var(--spacing-s);
+        border-radius: 30px;
         transition: filter 0.3s;
 
         &:hover {
